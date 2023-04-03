@@ -1,12 +1,12 @@
 # Based on the original script by Kelvin Tegelaar https://github.com/KelvinTegelaar/AutomaticDocumentation
 #####################################################################
 # Get a Hudu API Key from https://yourhududomain.com/admin/api_keys
-$HuduAPIKey = "abcdef1234565"
+#$HuduAPIKey = "abcdef1234565"
 # Set the base domain of your Hudu instance without a trailing /
-$HuduBaseDomain = "https://your.hudu.domain"
+#$HuduBaseDomain = "https://your.hudu.domain"
 #Company Name as it appears in Hudu
-$CompanyName = "Example Company"
-$HuduAssetLayoutName = "Network Overview - AutoDoc"
+#$CompanyName = "Example Company"
+#$HuduAssetLayoutName = "Network Overview - AutoDoc"
 #####################################################################
  #Get the Hudu API Module if not installed
 if (Get-Module -ListAvailable -Name HuduAPI) {
