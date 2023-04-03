@@ -112,3 +112,4 @@ if ($company) {
 		} else {
 			write-host "$CompanyName Not found in Hudu." -ForegroundColor Red
 		}
+Return
